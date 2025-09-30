@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0b0f0e;
+  --foreground: #e7eadf;
+  --muted-foreground: #9aa49a;
+  --card: #0e1412;
+  --border: rgba(198,168,88,0.2);
+
+  --accent-gold: #c6a858;
+
+  --forest-50: #f2fbf7;
+  --forest-100: #d9f3e8;
+  --forest-200: #b3e6d2;
+  --forest-300: #80d1b6;
+  --forest-400: #4db494;
+  --forest-500: #299876;
+  --forest-600: #2f7a57;
+  --forest-700: #1f5f46;
+  --forest-800: #154835;
+  --forest-900: #0b2e26;
+  --forest-950: #071d18;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-card: var(--card);
+  --color-border: var(--border);
+
+  --color-accent-gold: var(--accent-gold);
+  --color-accent: var(--accent-gold);
+
+  --color-forest-50: var(--forest-50);
+  --color-forest-100: var(--forest-100);
+  --color-forest-200: var(--forest-200);
+  --color-forest-300: var(--forest-300);
+  --color-forest-400: var(--forest-400);
+  --color-forest-500: var(--forest-500);
+  --color-forest-600: var(--forest-600);
+  --color-forest-700: var(--forest-700);
+  --color-forest-800: var(--forest-800);
+  --color-forest-900: var(--forest-900);
+  --color-forest-950: var(--forest-950);
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: #ffffff;
+    --foreground: #171717;
+    --muted-foreground: #6b7280;
+    --card: #ffffff;
+    --border: rgba(198,168,88,0.25);
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+}
