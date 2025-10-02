@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0a120d;
+  --foreground: #dcf2e4;
+  --card: #0f1b14;
+  --card-foreground: #dcf2e4;
+  --popover: #0f1b14;
+  --popover-foreground: #dcf2e4;
+  --primary: #1f5f46;
+  --primary-foreground: #f0f9f4;
+  --secondary: #2f6f55;
+  --secondary-foreground: #f0f9f4;
+  --muted: #0e1a12;
+  --muted-foreground: #bce5cc;
+  --accent: #c6a858;
+  --accent-foreground: #0a120d;
+  --destructive: #6f1f2a;
+  --destructive-foreground: #f0f9f4;
+  --border: #2f6f55;
+  --input: #0f1b14;
+  --ring: #3a8c6a;
+  --radius: 0.5rem;
+  --chart-1: #1f5f46;
+  --chart-2: #2f6f55;
+  --chart-3: #3a8c6a;
+  --chart-4: #c6a858;
+  --chart-5: #cfd6d6;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), var(--font-manrope), sans-serif;
+  line-height: 1.6;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--muted);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary);
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
