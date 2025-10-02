@@ -1,6 +1,8 @@
-# IGACMUN Session III - Website Clone
+# IGACMUN Session III - Complete Website + Admin Panel
 
-A pixel-perfect clone of the IGACMUN Session III website built with Next.js 14, TypeScript, and TailwindCSS.
+A professional website with full visual admin panel (NO CODING required!) built with Next.js 14, TypeScript, and TailwindCSS.
+
+## 🚀 **[START HERE](START_HERE.md)** ← Complete Setup Guide
 
 ## 🚀 Features
 
