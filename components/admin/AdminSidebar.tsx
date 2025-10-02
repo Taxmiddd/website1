@@ -15,12 +15,13 @@ import {
 
 const navigation = [
   { name: "Dashboard", href: "/admin", icon: LayoutDashboard },
-  { name: "Site Settings", href: "/admin/settings", icon: Settings },
-  { name: "Hero Section", href: "/admin/hero", icon: Globe },
-  { name: "Team Members", href: "/admin/team", icon: Users },
-  { name: "Content", href: "/admin/content", icon: FileText },
-  { name: "Media", href: "/admin/media", icon: Image },
+  { name: "Pages", href: "/admin/pages", icon: FileText },
+  { name: "Navbar", href: "/admin/navbar", icon: Globe },
   { name: "Theme", href: "/admin/theme", icon: Palette },
+  { name: "Site Settings", href: "/admin/settings", icon: Settings },
+  { name: "Team Members", href: "/admin/team", icon: Users },
+  { name: "Blog Posts", href: "/admin/posts", icon: FileText },
+  { name: "Widgets", href: "/admin/widgets", icon: Image },
   { name: "Analytics", href: "/admin/analytics", icon: BarChart3 },
 ];
 
