@@ -111,15 +111,19 @@ npm run dev
 
 ## 🚀 Deploy to Production
 
-### Option 1: Vercel (Easiest)
+### Option 1: Vercel (FREE - Easiest)
 ```bash
 npm install -g vercel
 vercel
 ```
 Add environment variables in Vercel dashboard.
 
-### Option 2: VPS ($5/month)
-See [ADMIN_SETUP_GUIDE.md](ADMIN_SETUP_GUIDE.md) for detailed steps.
+### Option 2: Linux VPS ($5/month)
+**Complete step-by-step guide:** [VPS_DEPLOYMENT_GUIDE.md](VPS_DEPLOYMENT_GUIDE.md)
+- DigitalOcean, Vultr, or Linode
+- Ubuntu 22.04 setup
+- Nginx + PM2 + SSL
+- Domain configuration
 
 ---
 
