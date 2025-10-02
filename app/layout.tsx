@@ -66,6 +66,8 @@ export const metadata: Metadata = {
   },
 };
 
+import { Providers } from "./providers";
+
 export default function RootLayout({
   children,
 }: {
@@ -76,9 +78,11 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${manrope.variable} ${cinzel.variable} antialiased min-h-screen bg-background text-foreground`}
       >
-        <Navbar />
-        <main className="pt-16">{children}</main>
-        <Footer />
+        <Providers>
+          <Navbar />
+          <main className="pt-16">{children}</main>
+          <Footer />
+        </Providers>
       </body>
     </html>
   );
